@@ -7,7 +7,7 @@
 <br>
 
 **DockerHub** : avik6028/nodejs_sample:1.0.0 <br>
-**AWS** : http://ec2-3-230-237-94.compute-1.amazonaws.com
+**AWS** : http://ec2-54-144-179-254.compute-1.amazonaws.com/
 <br>
 <br>
 
