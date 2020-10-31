@@ -1,14 +1,16 @@
-const express = require('express')
-const app = express()
+'use strict';
 
-const PORT =3000
+const express = require('express');
+
+// Constants
+const PORT = 8080;
 const HOST = '0.0.0.0';
 
-var cors = require('cors')
-app.use(cors());
+// App
+const app = express();
 app.get('/', (req, res) => {
-    res.send('Hello World!')
-})
+  res.send('Hello World !');
+});
 
 app.listen(PORT, HOST);
-console.log(`Example app listening at http://${HOST}:${PORT}`);
+console.log(`Running on http://${HOST}:${PORT}`);
