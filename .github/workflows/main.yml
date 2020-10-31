@@ -30,6 +30,9 @@ jobs:
               
       # Runs a set of commands using the runners shell
       - name: docker build image
+        env:
+          MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}   
+          MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
         run: |
           docker build . -t avik6028/nodejs_sample:1.0.0
       
