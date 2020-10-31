@@ -7,7 +7,7 @@
 <br>
 
 **DockerHub** : avik6028/nodejs_sample:1.0.0 <br>
-**AWS** : ec2-3-83-40-179.compute-1.amazonaws.com (STOPPED)
+**AWS** : http://ec2-3-230-237-94.compute-1.amazonaws.com
 <br>
 <br>
 
