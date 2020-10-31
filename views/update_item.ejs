@@ -1,0 +1,24 @@
+<!-- Default form contact -->
+<form class="text-center border border-light p-5" action="/update/<%= post.id %>/store" method="POST">
+
+    <p class="h4 mb-4">Update A ToDo</p>
+   
+  
+    <!-- Name -->
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Subject" name="subject" class="form-control" value="<%= post.subject %>" >
+  
+    <!-- Message -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" name="message" class="form-control" ><%= post.message %></textarea>
+    </div>
+  
+    
+    <!-- Send button -->
+    <button class="btn btn-info btn-block" type="submit">Update ToDo</button>
+    <br>
+    <a href="/delete/<%= post.id %>" class="btn btn-info btn-fill" role="button">Delete Post</a>
+  
+  
+  </form>
+  <!-- Default form contact -->
+  
