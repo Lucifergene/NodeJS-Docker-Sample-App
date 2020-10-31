@@ -1,19 +1,28 @@
-# NodeJS-Docker Sample Application
+# NodeJS-Docker To-Do Application
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
 <p> The sample app shows how to dockerize a Nodejs Application and build the container with CI/CD Pipelines. <br>
     Any changes made to this repository triggers the Automated Container Build Pipeline Powered by <b>GitHub Actions</b>.
 </p>
-<br>
-<br>
 
 **DockerHub** : avik6028/nodejs_sample:1.0.0 <br>
 **AWS** : http://ec2-54-144-179-254.compute-1.amazonaws.com/
 <br>
 <br>
 
-## Install Locally
+## Running Locally
 
-### ``npm install``
-download the node modules.<br>
-### ``node app.js``<br>
-run the server at http://localhost:8080/
+Make sure you have:
+* [Node.js](http://nodejs.org/)
+* An account in [MongoDB](https://account.mongodb.com/account/login) and signin for [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). 
+* You need to change the username and password in the `app.js` file.
+
+```sh
+git clone git@github.com:Lucifergene/NodeJS-Docker-Sample-App.git
+cd NodeJS-Docker-Sample-App
+npm install
+node app
+```
+
+Your app should now be running on [localhost:8080](http://localhost:8080/).
