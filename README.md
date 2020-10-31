@@ -1,5 +1,4 @@
 # NodeJS-Docker Sample Application
-<hr>
 
 <p> The sample app shows how to dockerize a Nodejs Application and build the container with CI/CD Pipelines. <br>
     Any changes made to this repository triggers the Automated Container Build Pipeline Powered by <b>GitHub Actions</b>.
