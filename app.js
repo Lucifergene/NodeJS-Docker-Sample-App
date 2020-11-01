@@ -39,7 +39,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 // Connect to MongoDB
-mongoose.connect(`mongodb+srv://avik6028:avik240299@cluster0-qiqen.mongodb.net/test?retryWrites=true&w=majority`, {useUnifiedTopology: true, useNewUrlParser: true })
+mongoose.connect(`mongodb+srv://${USERNAME}:${PASSWORD}@cluster0-qiqen.mongodb.net/test?retryWrites=true&w=majority`, {useUnifiedTopology: true, useNewUrlParser: true })
 
   .then(() => 
         console.log('You Are MongoDB Connected !'))
